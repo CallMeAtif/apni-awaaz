@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+node_modules/
+*.pyc
+.cache/
+voices/
+.DS_Store
+dist/
+*.log
+.claude/

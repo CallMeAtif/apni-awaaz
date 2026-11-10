@@ -1,0 +1,52 @@
+{
+  "base": "http://localhost:5173",
+  "viewport": "390x844",
+  "profile": "<temporary browser profile>",
+  "timings": {
+    "warmup": [
+      {
+        "status": 200,
+        "client_ms": 401,
+        "body": {
+          "llm": true,
+          "gnani": true,
+          "ms": 393
+        }
+      },
+      {
+        "status": 200,
+        "client_ms": 400,
+        "body": {
+          "llm": true,
+          "gnani": true,
+          "ms": 388
+        }
+      }
+    ],
+    "listen_tap_to_mic_live_ms": 214,
+    "listen_response": {
+      "transcript": "पापा, आज खाने में क्या बनाऊँ? दाल चावल चलेगा?",
+      "suggestions": [
+        "हाँ बेटा, दाल चावल बढ़िया रहेगा।",
+        "नहीं बेटा, आज खिचड़ी बना दो।",
+        "आज दाल चावल से पेट हल्का लगता है।"
+      ],
+      "timings": {
+        "stt_ms": 330,
+        "llm_ms": 2174
+      }
+    },
+    "listen_server_timing": "convert;dur=130, stt;dur=330, llm;dur=2174",
+    "stop_to_suggestions_ms": 2697,
+    "tapped_suggestion": "हाँ बेटा, दाल चावल बढ़िया रहेगा।",
+    "speak_x_cache": [
+      "HIT",
+      "HIT",
+      "HIT"
+    ],
+    "suggestion_tap_to_audio_ms": 44,
+    "phrase_tap_to_audio_ms": 86,
+    "typed_enter_to_audio_ms": 516
+  },
+  "problems": []
+}
